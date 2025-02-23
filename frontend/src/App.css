@@ -1,0 +1,103 @@
+.searchBar{
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 2rem;
+}
+
+.searchBar input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.searchBar input:focus{
+    outline: none;
+}
+
+.filterBar{
+    width: 200px;
+    background-color: var(--white);
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.filterBar select{
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+}
+
+.filterBar select:focus{
+    outline: none;
+}
+
+.filterBar select option{
+    font-size: 1rem;
+    border: none;
+}
+
+.filterBar select option:focus{
+    outline: none;
+}
+
+.countries{
+    margin: 0 2rem;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3.5rem;
+    
+}
+
+.country{
+    width: 300px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.country img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.countryInfo{
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+.countryInfo h3{
+    font-size: 1.2rem;
+    font-weight: var(--font-family-weight-800);
+    margin: 0.5rem 0 1rem 0;
+}
+
+.countryInfo p{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.countryInfo p span{
+    font-weight: var(--font-family-weight-600);
+}
+
+
+
+
+
+
+
+
+   
+
