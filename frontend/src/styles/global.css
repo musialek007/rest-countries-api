@@ -10,6 +10,7 @@ li{
 
 a{
     text-decoration: none;
+    color: var(--very-dark-blue-text);
     cursor: pointer;
 }
 

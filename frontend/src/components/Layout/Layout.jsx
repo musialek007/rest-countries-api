@@ -1,11 +1,12 @@
-import App from "../../App";
+
+import { Outlet } from "react-router-dom";
 import { TopBar } from "../TopBar/TopBar";
 
 export function Layout() {
     return (
         <>
             <TopBar />
-            <App />
+            <Outlet />
         </>
     );
 }
