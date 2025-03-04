@@ -21,11 +21,11 @@ export function DetailCountry() {
     
     return (
         <>
-        <div className={styles.backButton}>
-            <NavLink to="/">
+        <NavLink to="/">
+            <button className={styles.backButton}>
                 Back
-            </NavLink>
-        </div>
+            </button>
+        </NavLink>
         <div>
       <h1>Szczegóły kraju: {country.name}</h1>
       <p>Region: {country.region}</p>
