@@ -1,6 +1,6 @@
 .country{
     width: 300px;
-    background-color: var(--white);
+    background-color: var(--elements-color);
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;

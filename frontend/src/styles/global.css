@@ -20,6 +20,6 @@ button{
 
 body{
     font-family: var(--font-family);
-    color: var(--very-dark-blue-text);
-    background-color: var(--very-light-gray);
+    color: var(--body-text-color);
+    background-color: var(--body-background);
 }

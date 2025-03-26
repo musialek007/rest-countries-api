@@ -28,8 +28,6 @@ function App() {
       .catch((error) => console.error(error))
   }, [])
 
-  console.log(countries)
-
   return (
     <>
         <FlexConteiner>
@@ -42,7 +40,7 @@ function App() {
           
           <div className={styles.filterBar}>
             <select  name="region" id="region" onChange={(e) => setSelectedRegion(e.target.value)}>
-              <option value="">Filter by Region</option>
+              <option value={""}>Filter by Region</option>
               {uniqueCountryRegions.map((region) => (
                 <option key={region} value={region}>
                   {region || "Brak regionu"}

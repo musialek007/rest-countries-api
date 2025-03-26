@@ -26,13 +26,17 @@ export function DetailCountry() {
                 Back
             </button>
         </NavLink>
-        <div>
-      <h1>Szczegóły kraju: {country.name}</h1>
-      <p>Region: {country.region}</p>
-      <p>Populacja: {country.population}</p>
-      <p>Stolica: {country.capital}</p>
-      <img src={country.flag} alt={`Flaga ${country.name}`} width="200" />
-    </div>
+        <div className={styles.detailCountryConteiner}>
+            <img src={country.flag} alt={`Flaga ${country.name}`} width="200" />
+            <div className={styles.detailCountry}>
+                <h1>Szczegóły kraju: {country.name}</h1>
+                <p>Region: {country.region}</p>
+                <p>Populacja: {country.population}</p>
+                <p>Stolica: {country.capital}</p>
+            </div>
+            
+            
+        </div>
     </>
     );
 }

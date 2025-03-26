@@ -1,14 +1,22 @@
+:root{
+    --input-color: hsl(0, 0%, 52%);
+    --body-background: hsl(0, 0%, 98%);
+    --body-text-color: hsl(200, 15%, 8%);
+    --elements-color: hsl(0, 0%, 100%);
+}
+
+[data-theme="dark"]{
+    --input-color: hsl(0, 0%, 52%);
+    --body-background: hsl(207, 26%, 17%);
+    --body-text-color: hsl(0, 0%, 100%);
+    --elements-color: hsl(209, 23%, 22%);
+}
+
+
 body{
     --font-family: 'Nunito Sans', sans-serif;
-
+    
     --font-family-weight-300: 300;
     --font-family-weight-600: 600;
-    --font-family-weight-800: 800;
-
-    --dark--blue: hsl(209, 23%, 22%);
-    --very-dark-blue: hsl(207, 26%, 17%);
-    --very-dark-blue-text: hsl(200, 15%, 8%);
-    --dark-gray: hsl(0, 0%, 52%);
-    --very-light-gray: hsl(0, 0%, 98%);
-    --white: hsl(0, 0%, 100%);
+    --font-family-weight-800: 800; 
 }

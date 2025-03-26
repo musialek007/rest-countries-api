@@ -2,7 +2,7 @@
     margin: 2rem 2rem;
     display: flex;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--elements-color);
     width: 450px;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -10,6 +10,7 @@
 }
 
 .searchBar input{
+    color: var(--body-text-color);
     width: 100%;
     border: none;
     background-color: transparent;
@@ -23,14 +24,15 @@
 
 .filterBar{
     width: 200px;
-    background-color: var(--white);
     margin: 2rem 2rem;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-
+    color: var(--body-text-color);
 }
 
 .filterBar select{
+    background-color: var(--elements-color);
+    color: var(--body-text-color);
     width: 100%;
     border: none;
     font-size: 0.9rem;
