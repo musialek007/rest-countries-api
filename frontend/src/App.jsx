@@ -51,7 +51,7 @@ function App() {
             id="region"
             onChange={(e) => setSelectedRegion(e.target.value)}
           >
-            <option value={""}>Filter by Region xd</option>
+            <option value={""}>Filter by Region</option>
             {uniqueCountryRegions.map((region) => (
               <option key={region} value={region}>
                 {region || "Brak regionu"}
