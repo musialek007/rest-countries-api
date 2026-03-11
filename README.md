@@ -18,5 +18,5 @@ Ten projekt składa się z interfejsu stworzonego w React (Vite) oraz lokalnej b
 4. Wróć do głównego folderu i uruchom frontend oraz backend jednocześnie:<br>
    `cd ..`
    `npm run dev`
-5. No nie wiem napisze sobie coś<br>
+5. No nie wiem napisze sobie coś xdd<br>
    git
