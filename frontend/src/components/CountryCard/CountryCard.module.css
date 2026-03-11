@@ -1,0 +1,32 @@
+.country{
+    width: 300px;
+    background-color: var(--elements-color);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.country img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.countryInfo{
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.countryInfo h3{
+    font-size: 1.2rem;
+    font-weight: var(--font-family-weight-800);
+    margin: 0.5rem 0 1rem 0;
+}
+
+.countryInfo p{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.countryInfo p span{
+    font-weight: var(--font-family-weight-600);
+}

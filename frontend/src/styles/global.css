@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--very-dark-blue-text);
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    font-family: var(--font-family);
+    color: var(--body-text-color);
+    background-color: var(--body-background);
+}

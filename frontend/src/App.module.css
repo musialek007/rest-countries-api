@@ -1,0 +1,75 @@
+.searchBar{
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--elements-color);
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 2rem;
+}
+
+.searchBar input{
+    color: var(--body-text-color);
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.searchBar input:focus{
+    outline: none;
+}
+
+.filterBar{
+    width: 200px;
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    color: var(--body-text-color);
+}
+
+.filterBar select{
+    background-color: var(--elements-color);
+    color: var(--body-text-color);
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+}
+
+.filterBar select:focus{
+    outline: none;
+}
+
+.filterBar select option{
+    font-size: 1rem;
+    border: none;
+}
+
+.filterBar select option:focus{
+    outline: none;
+}
+
+.countries{
+    margin: 0 2rem;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+   
+
