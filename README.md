@@ -8,11 +8,15 @@ Ten projekt składa się z interfejsu stworzonego w React (Vite) oraz lokalnej b
 2. Otwórz terminal w głównym folderze projektu i pobierz potrzebne pakiety:<br>
    `npm install`
 3. Przejdź do folderu backend i pobierz jego pakiety (np. json-server):<br>
-   `cd backend`
-   `npm install`
-   `npm install json-server`
+
+```bash
+    cd backend
+    npm install
+    npm install json-server
+```
+
 4. Wróć do głównego folderu i uruchom frontend oraz backend jednocześnie:<br>
    `cd ..`
    `npm run dev`
-5. No nie wiem napisze sobie coś<br>
+5. No nie wiem napisze sobie coś xdd<br>
    git
