@@ -25,5 +25,3 @@ Ten projekt składa się z interfejsu stworzonego w React (Vite) oraz lokalnej b
    cd ..
    npm run dev
 ```
-
-git
