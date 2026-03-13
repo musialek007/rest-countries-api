@@ -1,30 +1,3 @@
-# Rest Countries API
-
-Ten projekt składa się z interfejsu stworzonego w React (Vite) oraz lokalnej bazy danych obsługiwanej przez json-server.
-
-## Jak uruchomić ten projekt lokalnie:
-
-1. Pobierz repozytorium na swój komputer.
-2. Otwórz terminal w głównym folderze projektu i pobierz potrzebne pakiety:<br>
-
-```bash
-   npm install
-```
-
-3. Przejdź do folderu backend i pobierz jego pakiety (np. json-server):<br>
-
-```bash
-    cd backend
-    npm install
-    npm install json-server
-```
-
-4. Wróć do głównego folderu i uruchom frontend oraz backend jednocześnie:<br>
-
-```bash
-   cd ..
-   npm run dev
-```
 # REST Countries API 🌍
 
 This is a simple "for fun" project I created to practice programming. My main goal here was to learn and get more comfortable working with **React** and fetching data from a **REST API**.
