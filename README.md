@@ -12,12 +12,6 @@ Here is what the application can do right now:
 * **Theme Toggle:** Includes a Dark/Light mode switch to improve user experience.
 * **Details Page (Work in progress):** Clicking on a country opens a separate view for more detailed information.
 
-## 🛠️ Future Improvements (To-Do)
-
-I am constantly working on improving this project. Upcoming features include:
-- [ ] **Search Bar:** Implementing a text search to quickly find a specific country by its name.
-- [ ] **Polishing the Details View:** Finishing the layout and CSS for the single-country page to display more comprehensive data.
-
 ## 💻 Tech Stack
 
 * **Frontend:** React (Vite), JavaScript, HTML, CSS
