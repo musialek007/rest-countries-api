@@ -1,0 +1,31 @@
+.filterBar{
+    width: 200px;
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    color: var(--body-text-color);
+}
+
+.filterBar select{
+    background-color: var(--elements-color);
+    color: var(--body-text-color);
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filterBar select:focus{
+    outline: none;
+}
+
+.filterBar select option{
+    font-size: 1rem;
+    border: none;
+}
+
+.filterBar select option:focus{
+    outline: none;
+}
