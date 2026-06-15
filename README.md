@@ -10,7 +10,7 @@ Here is what the application can do right now:
 * **Country List:** Displays a grid of countries with their flags and key details (population, region, capital).
 * **Region Filter:** Users can filter the displayed countries by specific continents.
 * **Theme Toggle:** Includes a Dark/Light mode switch to improve user experience.
-* **Details Page (Work in progress):** Clicking on a country opens a separate view for more detailed information.
+* **Details Page:** Clicking on a country opens a separate view for more detailed information.
 
 ## 💻 Tech Stack
 
